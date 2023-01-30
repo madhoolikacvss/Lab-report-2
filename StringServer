@@ -1,0 +1,10 @@
+TASK 1 
+
+When I created StringServer.java, I borrowed the ideas from NumberServer.java and modified the methods used there to suit String data type.
+
+
+My main method from the class StringServer takes in an argument (the server number) given by a user from VSCode's terminal and uses Server.java to create a local server.
+My code uses the method `handleRequest(URI url)` from the class Handler to read the path in the url and detect the query (the word being added).
+For example, I used the command `java StringServer 55100` where 55100 is the server number. 
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
