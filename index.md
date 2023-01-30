@@ -1,4 +1,5 @@
-#Lab Report 2
+Lab Report 2
+=========
 
 **TASK 1** 
 
@@ -76,7 +77,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
-#Task 3
+**Task 3**
 
 In lab 2 I realised the importance of small logical errors in the code that potentially ruin the whole code. It is important to look at each step with great detail as some of the logical issues might not be obvious for human eyes unless through testing is done.
 That leads me onto the second lesson - effective testing. Some testers might pass due to the nature of the inputs even though the code has errors. It is our responsibility to make testers that encompass a good number of possible input types to see if the algorithm works correctly at all times.
