@@ -5,7 +5,8 @@ Lab Report 2
 
 When I created StringServer.java, I borrowed the ideas from NumberServer.java and modified the methods used there to suit String data type.
 
-![My Code](https://github.com/madhoolikacvss/Lab-report-2/blob/main/code.jpg)
+![code](https://user-images.githubusercontent.com/122486374/215416800-2bd402dc-a817-4366-af97-744d1acb6492.jpg)
+
 
 
 My main method from the class StringServer takes in an argument (the server number) given by a user from VSCode's terminal and uses Server.java to create a local server.
