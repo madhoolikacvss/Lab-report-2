@@ -12,17 +12,20 @@ When I created StringServer.java, I borrowed the ideas from NumberServer.java an
 My main method from the class StringServer takes in an argument (the server number) given by a user from VSCode's terminal and uses Server.java to create a local server.
 For example, I used the command `java StringServer 55100` where 55100 is the server number. It is important for the argument being passing in the terminal of the IDE is stringctly integer, and within the range 1024 to 49151 as the server numbers are restricted to this range.
 The result of the execution of the above code was as follows:
-![Launching the server](https://github.com/madhoolikacvss/Lab-report-2/blob/main/serverstart.jpg)
+![serverstart](https://user-images.githubusercontent.com/122486374/215417012-82aae37f-2950-4328-a378-feb590110fcb.jpg)
+
 
 
 Then, I added the path to the url of the server, `/add-message?s=helooo`, which gave the following output
-![First line](https://github.com/madhoolikacvss/Lab-report-2/blob/main/add1.jpg)
+![add1](https://user-images.githubusercontent.com/122486374/215417099-a9ec2d9f-915b-4543-83eb-74617f405737.jpg)
+
 
 My code uses the method `handleRequest(URI url)` from the class Handler to read the path in the url and detect the query which is the relevant value for this method - heloo.
 Here, as it was first time running the server, there were no preadded strings to be displayed, so the first line of the output is *helooo*
 
 I then added changed the path to the url of the server to `/add-message?s=skidooosh`, which gave the following output
-![Second line](https://github.com/madhoolikacvss/Lab-report-2/blob/main/add2.jpg)
+![add2](https://user-images.githubusercontent.com/122486374/215417163-c213275a-5064-41b1-9efb-25f0156ab575.jpg)
+
 
 Here, as I already ran the server with a path previously, the method `handleRequest(URI url)` already had the string `helooo` stored in the variable `sentence`. 
 So when this url was run, the new parameter (skidooosh) was concatinated to the variable `sentence` with an escape character `\n` which also added a new line before the word.
