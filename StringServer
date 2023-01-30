@@ -16,7 +16,7 @@ The result of the execution of the above code was as follows:
 Then, I added the path to the url of the server, `/add-message?s=helooo`, which gave the following output
 ![First line](https://github.com/madhoolikacvss/Lab-report-2/blob/main/add1.jpg)
 
-My code uses the method `handleRequest(URI url)` from the class Handler to read the path in the url and detect the query which is the relevant value for this method - heloo).
+My code uses the method `handleRequest(URI url)` from the class Handler to read the path in the url and detect the query which is the relevant value for this method - heloo.
 Here, as it was first time running the server, there were no preadded strings to be displayed, so the first line of the output is *helooo*
 
 I then added changed the path to the url of the server to `/add-message?s=skidooosh`, which gave the following output
@@ -31,5 +31,4 @@ This because the numbers when being concatinated to the variable `sentence` in m
 
 
 
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
